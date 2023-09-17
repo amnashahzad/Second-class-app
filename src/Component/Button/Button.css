@@ -1,0 +1,27 @@
+button{
+    border: 2px solid transparent;
+    width: 15%;
+    height: 50px;
+    margin-top: 5px;
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+@keyframes button {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* @media (prefers-reduced-motion: no-preference) {
+    button {
+      animation: App-logo-spin infinite 2ms linear;
+    }
+  } */
